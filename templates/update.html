@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block tour %}
+
+    <div class="row container">
+        <div class="col-md-6 padding_left_0 offset-4">
+            <div class="mail_section">
+              <form action="" method="post">
+                {% csrf_token %}
+              {{ fm.name }}
+              {{ fm.email }}
+              {{ fm.phone }}
+              {{ fm.password }}
+              
+              <input type="submit" class="btn btn-danger my-4" value="Send">
+            </form>
+            </div>
+          </div>
+    </div>
+
+
+
+{% endblock tour %}

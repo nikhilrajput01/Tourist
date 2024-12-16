@@ -1,0 +1,475 @@
+.body,html{
+    margin: 0px;
+    padding: 0px;
+}
+h1 ,h2 ,h3 ,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito",sans-serif;
+    font-weight: 800;
+    color: #2C3E50;
+}
+h1{
+    margin-bottom: 40px;
+    font-family: "Nunito",sans-serif;
+    font-weight: 800;
+    color: #2C3E50;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Heebo",sans-serif;
+    font-weight: 400;
+    color: #808B8D;
+}
+.btn{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+/**navbar**/
+.new{
+    background-color: rgb(0, 0, 0,0.7);
+    padding-bottom: 200px;
+    }
+    .bord{
+        border-bottom: 1px solid rgb(105, 102, 102);
+        }
+        .new h1{
+            text-align: center;
+            color: aliceblue;
+            margin-top: 100px;
+            font-size: 60px;
+            margin-bottom: 20px;
+            }   
+            .new p{
+                text-align: center;
+                color: aliceblue;
+                font-size:24px;
+                margin-bottom: 30px;
+                }
+                .nav-link {
+                    color: aliceblue;
+                    border-bottom: 2px solid  transparent;
+                    }
+                    .nav-link:hover{
+                        border-bottom: 2px solid #86B817;
+                        color: #86B817;
+                          }
+                         .navbar-brand{
+                                color: #86B817;
+                                font-size: 50px;
+                                font-family: "Nunito",sans-serif;
+                                font-weight: 800;
+                                }
+                                .navbar-brand i{
+                                    color: #86B817;
+                                    font-size: 50px;
+                                    }
+                                .new button{
+                                    background-color: #86B817;
+                                    color: aliceblue;
+                                    border-radius: 23px 23px 23px 23px;
+                                    padding: 9px 25px;
+                                        }
+                                        .nomm{
+                                            padding-right:50px ;
+                                         }
+                                         .nomm ul li{
+                                            padding-right: 12px;
+                                            font-family: 'Nunito', sans-serif;
+                                            font-weight: 600;
+                                            font-size: 18px;
+                                         }
+                                        .search_bar{
+                                            width:50% ;
+                                            text-align: center;
+                                        }
+                                        .search_bar button{
+                                            margin-top: 8px;
+                                            margin-right: 7px;
+                                        }
+                                        .tourist{
+                                            background-image: url(../img/bg-hero.jpg);
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                        }
+                                        .booking{
+                                            background-image: url(../img/booking.jpg);
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                              }
+/**aboutus**/
+.about{
+    background-image: url(../img/bg-hero.jpg);
+    border-bottom: 5px solid rgb(19, 3, 3);
+}
+.aboutus{
+    margin: 60px 0px;
+    }                                    
+.pic img{
+    width: 100%;
+    }
+    .aboutus h2{
+        font-size: 40px;
+        margin-top: 20px;
+    
+    }
+    .aboutus p{
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 25px 0px;
+    }
+    .aboutus button{
+        color: aliceblue;
+        background-color: #86B817;
+        padding: 12px 35px;
+        margin: 20px 0px;
+        border: 0px solid;
+        font-size: 20px;
+    }
+    .aboutus ul li{
+        line-height: 2;
+        list-style-type: none;
+        font-size: 17px;
+        margin-left: -26px;
+        color: #808B8D;
+    }
+    .aboutus i{
+        margin-right: 10px;
+        color:#86B817;
+    }
+    .aboutus span{
+        color: #86B817;
+    }
+    .tile{
+        position: relative;
+        display: inline-block;
+        color: #86B817;
+    }
+    .tile:after{
+        position: absolute;
+        content: "";
+        width:55%;
+        height: 2px;
+        top: 5px;
+        left: 95px;    
+        background:#86B817 ;
+        z-index: -1;
+    }
+    .tile:before{
+        position: absolute;
+        content: "";
+        width: 80%;
+        height: 2px;
+        top: 12px;
+        left: 95px;
+        background: #86B817;
+        z-index: -1;
+    }
+/**destination**/
+.destination{
+    margin: 60px 0px;
+     }
+        .destination img{
+        width: 100%;
+        transition: .5s;
+        }
+        .destination img:hover{
+            transform: scale(1.1)
+        }
+        .destination a{
+            color: #86B817;
+        }
+/**package**/
+.package{
+    margin: 60px 0px;
+    }
+    .pack_pic img{
+    width: 100%;
+    }
+    .card img{
+        transition: .5s;
+    }
+    .card img:hover{
+        transform: scale(0.9);
+    }
+    .card{
+        border: none;
+        background-color: white;
+    }
+    .card-header{
+        border: none;
+        background-color: white;
+    }
+    .card i{
+        color: #86B817;
+    }
+    .card-body small{
+        color: #86B817;
+    }
+    .card-footer{
+        border: none;
+        background-color: white;
+    }
+    .card a{
+        background-color: #86B817;
+        color: aliceblue ;
+        margin: 0px -1px 0px -2px ;
+    }
+    .card a:hover{
+        background-color: #86B817;
+        color: aliceblue    ;
+    }
+/**service**/
+.service{
+    margin: 60px 0px;
+    }
+    .heading{
+        padding: 15px 16px;
+        color: rgb(50, 50, 49);
+        transition: 1s;
+            }
+            .heading:hover{
+                background-color:  #86B817;
+                color: rgb(209, 214, 218);
+                }
+                .heading *{
+                    transition: -1s;
+                    }
+                    .heading i{
+                    color: #86B817;
+                        }
+                        .heading:hover * {
+                            color: var(--light) ;
+                            }
+                            .title {
+                                position: relative;
+                                display: inline-block;
+                                color: #86B817;
+                            }
+                            
+                            .title:before {
+                                position: absolute;
+                                content: "";
+                                width: calc(100% + 80px);
+                                height: 2px;
+                                top: 6px;
+                                left: -40px;
+                                background:#86B817;
+                                z-index: -1;
+                            }
+                            
+                            .title:after {
+                                position: absolute;
+                                content: "";
+                                width: calc(100% + 120px);
+                                height: 2px;
+                                bottom: 4px;
+                                left: -60px;
+                                background:#86B817;
+                                z-index: -1;
+                            }
+                            
+/**booking**/
+.booking{
+    margin: 60px 0px;
+    }
+    .book_overlay{
+        background-color: rgb(0, 0, 0,0.6);
+        padding:50px;
+}
+.booking h1{
+    color: aliceblue ;
+}
+.booking h4{
+    color: aliceblue ;
+}
+.booking p{
+    color: aliceblue ;
+}
+.form-control{
+    padding: 15px;
+    border-radius: initial;
+}
+.book_text p{
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 25px;  
+}
+.form-select{
+    color: #66707a;
+}
+.monn{
+    color: #66707a;
+}
+.booking a{
+    padding: 15px 50px;
+    border-radius: initial;
+    font-weight: 600;
+    font-size: 18px;
+}
+/**step**/
+.step_text{
+    margin-bottom: 90px;
+}
+.step{
+    margin: 60px 0px;
+    }
+ .step_pic{
+   border:1px solid#86B817;
+   padding: 25px;
+ }
+ .step_pic h3{
+    margin-top: -65px;
+    margin-bottom: 20px;
+    font-size: 22px;
+ }
+ .mow h3{
+    margin-top: -42px;
+    margin-bottom: 20px;
+    font-size: 22px;
+ }
+ .wom h3{
+    margin-top: -41px;
+    margin-bottom: 20px;
+    font-size: 22px;
+ }
+ .step_pic i{
+    border: 1px solid;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #86B817;
+    color: aliceblue;
+    position: relative;
+    top: -78px;
+ }
+ .ico i{
+    padding: 25px;
+ }
+
+ .var i{
+    font-size: 50px;
+    padding: 24px 33px;
+ }
+ .rom i{
+    padding: 27px 27px;
+    font-size: 45px;
+ }
+ /**guide**/
+ .guide{
+    margin: 60px 0px;
+ }
+ .guid_pic img{
+    width: 100%;
+    transition: .5s;
+ }
+ .guid_pic img:hover{
+    transform: scale(1.1);
+ }
+ .guide_pic{
+    padding-bottom: 20px;
+    background-color: rgb(228, 249, 249);
+    
+ }
+ .guide_pic i{
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    color: #86B817;
+    background-color: aliceblue;
+    padding: 10px 12px;
+    margin: 0px 3px;
+    border-bottom: 1px solid;
+    transition: .5s;
+ }
+ .guide_pic i:hover{
+    background-color: #86B817;
+    color: aliceblue;
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+    transition-delay: 0s;
+ }
+ /**client**/
+ .client{
+    margin: 60px 0px;
+ }
+ .carousel-item{
+        background-color:#86B817;
+        padding:20px;
+        }
+ /**ender**/
+ .ender{
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 100px;
+    margin-top: 60px;
+ }
+ .ender h2 ,i {
+    color: aliceblue;
+ }
+ .ender p{
+    color: rgb(243, 248, 253);
+ }
+ .company a:before{
+  position: relative;
+  content:"\f105";
+  font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+ }
+ .company{
+    color: aliceblue;
+    text-decoration: auto;
+ }
+ .icon i{
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 9px 10px;
+    margin: -5px -8px;
+    color: aliceblue;
+}
+ .icon i:hover{
+    background-color: aliceblue;
+    color: #86B817;
+    border: 1px solid white;
+    border-radius: 100%;
+ }
+ .gallery img{
+    width: 100%;
+ }
+ .mail button{
+    background-color: #86B817;
+    color: aliceblue;
+ }
+ .borderline{
+    border-bottom: 1px solid rgb(139, 134, 134) ;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+ }
+ .siteweb a{
+    text-decoration: none;
+    color: white;
+ }
+ .last{
+    margin-bottom: -20px;
+    margin-top: -15px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
